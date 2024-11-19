@@ -11,6 +11,11 @@ h1{
   font-size: 50px;
 }
 
+h2{
+  font-weight: 800;
+  font-size: 50px;
+}
+
 h3{
   font-weight: bold;
   font-size: 30px;
@@ -20,6 +25,12 @@ h4{
   font-weight: bold;
   font-size: 20px;
 }
+
+p{
+  font-weight: 400;
+  font-size: 30px;
+  margin: 30px 0;
+  }
 
 .wrapper{
    width: 900px;
@@ -56,23 +67,15 @@ h4{
    background-size: 100%;
    width: 363px;
    height: 344px;
-   position: absolute; top: 117px; right: 89px;
+   position: absolute; top: 200px; right: 89px;
 }
 
 .character2{
   background: url(img/eish-guy.png) no-repeat 0 0;
    background-size: 100%;
    width: 309px;
-   height: 371px;
-   position: absolute; top: 213px; right: 277px;
-}
-
-.character3{
-  background: url(img/bored-guy.png) no-repeat 0 0;
-   background-size: 100%;
-   width: 297px;
-   height: 286px;
-   position: absolute; top: 74px; right: 109px;
+   height: 400px;
+   position: absolute; top: 100px; right: 300px;
 }
 
 a.cta,
@@ -82,7 +85,7 @@ button.cta{
    color: white;
    background: #007fff;
    display: inline-block;
-   box-shadow: 0 0 0 10px; rgba(0, 127, 255, .15);
+   box-shadow: 0 0 0 1px;
    padding: 20px 30px;
    border-radius: 10px;
    text-decoration: none;
@@ -92,21 +95,60 @@ a.cta.alt,
 button.cta.alt{
   background-color: #ffd400;
   color: #111111;
-  box-shadow: 0 0 0 10px; rgba(0, 127, 255, .15);
+  box-shadow: 0 0 0 10px;
 }
 
-/* <div class="hero-banner"></div>
-  <div class="wrapper">
-    <h4>Rich from <a href="https://taptapkaboom.com">Tap Tap Kaboom</a> presents</h4>
-    <h1>The Silliest &amp;<br/>
-    Most Awesome Gang<br/>
-    In The World!</h1>
-    <h3>It's Circle Guy, Hat Guy &amp; Red Guy.<br/>
-    They're the best of friends.</h3>
-    <a class="cta alt" href="#more-info">Read More</a>
-  </div>
-      <div class="character1"></div>
-      <div class="character2"></div>
-      <div class="character3"></div> */
+nav{
+   height: 100px;
+   background-color: white;
+   box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
+   position: sticky;
+   top: 0;
+}
+
+nav .logo{
+  display: block;
+  width: 50px;
+  height: 500px;
+  position: absolute; top: 50%; left: 0;
+  margin-top: -20px;
+  margin-left: 30px;
+  background: url(img/floating-plant-guy.png) no-repeat 0 0;
+  background-size: 100%;
+}
+
+nav ul{
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+nav ul li{
+  margin: 0;
+  padding: 0;
+  display: block;
+  float: right;
+}
+
+nav ul li a{
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #111111;
+  text-decoration: none;
+  padding: 35px 10px;
+  line-height: 30px;
+}
+
+.more-info{
+    text-align: center;
+}
+
+.more-info h2{
+
+}
+/*  */
 
 
