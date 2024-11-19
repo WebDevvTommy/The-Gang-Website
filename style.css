@@ -40,7 +40,7 @@ p{
 .hero-banner{
     background-color: #007fff;
     min-height: 100vh;
-    padding: 50px 20px;
+    padding: 25vh;
     box-sizing: border-box;
     position: relative;
     overflow: hidden;
@@ -67,7 +67,7 @@ p{
    background-size: 100%;
    width: 363px;
    height: 344px;
-   position: absolute; top: 200px; right: 89px;
+   position: absolute; top: 300px; right: 150px;
 }
 
 .character2{
@@ -75,7 +75,7 @@ p{
    background-size: 100%;
    width: 309px;
    height: 400px;
-   position: absolute; top: 100px; right: 300px;
+   position: absolute; top: 200px; right: 410px;
 }
 
 a.cta,
@@ -146,9 +146,18 @@ nav ul li a{
     text-align: center;
 }
 
-.more-info h2{
-
+.more-info p{
+  margin-top: 35px;
 }
-/*  */
 
+.more-info h2{
+  margin: 50px 0 0;
+}
 
+.highlight{
+  background-color: #ffadf9;
+  color: #007fff;
+  padding: 5px;
+  display: inline;
+  font-weight: 800;
+}
